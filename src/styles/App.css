@@ -1,0 +1,83 @@
+.message-section {
+  background-color: #efe7d1;
+}
+
+.navbar-default {
+  background: none;
+  border: none;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: rgb(255, 145, 29);
+  color: rgba(255, 145, 29, 0.7);
+}
+
+@media (min-width: 768px) {
+  .main-row {
+    min-height: 100%;
+    display: flex;
+  }
+
+  .sidenav {
+    background-color: #f9fbfc;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .message-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-default {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: inherit;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .navbar-form {
+    padding: 0;
+  }
+
+  .navbar::-webkit-scrollbar, .navbar::-webkit-scrollbar-track  {
+    background-color: #f9fbfc;
+    width: .75rem;
+  }
+
+  .navbar::-webkit-scrollbar-thumb {
+    background-color: #a39ea1;
+    width: .75rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    background-color: #efe7d1;
+  }
+
+  .navbar-default {
+    background-color: #f9fbfc;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .sidenav {
+   overflow-x: hidden;
+  }
+
+  .navbar-default .navbar-collapse {
+    max-height: 80vh;
+  }
+}

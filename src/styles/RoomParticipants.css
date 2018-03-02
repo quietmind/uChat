@@ -1,0 +1,13 @@
+.participants-heading {
+  display: inline;
+}
+
+.participant-name {
+  font-size: 1rem;
+}
+
+@media (max-width: 991px) and (min-width: 767px) {
+  .participant-name {
+    font-size: .85rem;
+  }
+}

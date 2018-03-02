@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+html, body, #root, .container-fluid {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #181b1b;
+}
+
+body::-webkit-scrollbar, .navbar::-webkit-scrollbar-track  {
+  background-color: #f9fbfc;
+  width: .75rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #a39ea1;
+  width: .75rem;
+}
+
+.cursor-color-change:hover {
+  cursor: pointer;
+  color: #c7a3bc;
+}

@@ -1,0 +1,84 @@
+.message-bar {
+  background-color: rgb(255, 145, 29);
+  background-color: rgba(255, 145, 29, 0.7);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 3.25rem;
+  z-index: 1;
+  padding-top: .75rem;
+  width: inherit;
+}
+
+.message-list {
+  padding-bottom: 4rem;
+}
+
+.message-list ul {
+  padding: 0;
+}
+
+.message-item {
+  list-style: none;
+}
+
+.msg-username {
+  color: #a0a0a0;
+  border-top-width: .25rem;
+  border-top-style: solid;
+  border-top-color: rgb(210, 200, 175);
+  border-top-color: rgba(66, 61, 48, 0.1);
+  padding-top: .25rem;
+}
+
+.msg-content {
+  display: inline;
+  font-size: 1rem;
+}
+
+.fa-wrench.edit-msg {
+  float: left;
+  padding-right: 1rem;
+  font-size: .75rem;
+  color: #ff911d;
+}
+
+.fa-wrench.edit-msg:hover {
+  cursor: pointer;
+}
+
+.no-edit-msg {
+  display: inline-block;
+  width: 1.5rem;
+}
+
+.msg-sent-at {
+  float: right;
+  font-size: .75rem;
+  padding: .25rem;
+  background-color: rgb(210, 200, 175);
+  background-color: rgba(66, 61, 48, 0.1);
+}
+
+.msg-updated-at {
+  float: right;
+  font-size: .75rem;
+  background: none;
+  padding-top: .5rem;
+  padding-right: .5rem;
+}
+
+.message-transition-enter {
+  opacity: 0.75;
+}
+
+.message-transition-enter.message-transition-enter-active {
+  opacity: 1;
+  transition: opacity 200ms ease-in;
+}
+
+@media (max-width: 767px) {
+  .message-list {
+    padding-top: 5rem;
+  }
+}

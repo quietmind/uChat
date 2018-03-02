@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .login-section {
+    clear: both;
+  }
+}
+
+@media (max-width: 767px) {
+  .login-section {
+    text-align: right;
+  }
+}

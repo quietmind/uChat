@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+
+.active-room {
+  font-family: "Raleway", sans-serif;
+  color: #a79292;
+  font-size: 1.75rem;
+}
+
+#create-room {
+  text-align: right;
+  border-bottom: .1rem solid #717171;
+  color: #717171;
+  font-size: 1.25rem;
+}
+
+#create-room:hover {
+  cursor: pointer;
+}
+
+.room-list, .room-list ul, .room-section {
+  padding: 0;
+}
+
+.room-list-item {
+  list-style: none;
+}
+
+.room-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline;
+  vertical-align: middle;
+}
+
+.room-options {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: .5rem;
+  border: none;
+  background: none;
+}
+
+.no-options {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: .5rem;
+}
+
+.room-block, .room-edit {
+  margin-bottom: .5rem;
+}
+
+.fa-check {
+  color: #21ce63;
+}
+
+.fa-times {
+  color: #e04028
+}
+
+.room-transition-enter {
+  color: #a79292;
+}
+
+.room-transition-enter.room-transition-enter-active {
+  color: #16020d;;
+  transition: color 500ms ease-in;
+}
+
+.room-transition-exit {
+  opacity: 1;
+}
+
+.room-transition-exit.room-transition-exit.active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
+@media (max-width: 991px) and (min-width: 767px) {
+  .room-title {
+    font-size: 1rem;
+  }
+
+  .room-options, .no-options {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .25rem;
+  }
+}
