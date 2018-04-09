@@ -1,8 +1,7 @@
 {
-  "name": "bloc-chat-react",
+  "name": "uchat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "quietmind.github.io",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "express": "^4.16.2",
